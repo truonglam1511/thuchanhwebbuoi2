@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Main container */
+        .profile-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        /* Profile header */
+        .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .profile-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Profile info */
+        .profile-info {
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .profile-friends {
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* Buttons */
+        .profile-buttons {
+            margin-top: 20px;
+        }
+
+        .profile-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .profile-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <div class="profile-name">Lâm Trường (Lâm Ngọc)</div>
+            <div class="profile-friends">490 bạn bè</div>
+        </div>
+        <div class="profile-info">
+            <!-- Add other profile information here -->
+        </div>
+        <div class="profile-buttons">
+            <button class="profile-button">Thêm ảnh</button>
+            <button class="profile-button">Thêm thông tin</button>
+            <button class="profile-button">Chỉnh sửa</button>
+        </div>
+    </div>
+</body>
+</html>
